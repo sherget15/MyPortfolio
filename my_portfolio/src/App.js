@@ -26,7 +26,6 @@ function App() {
       <h1>Contact Me!</h1>
 
       <div className='contact-form'>
-      <h3>Share</h3>
       <form>
         <label>Your Name</label>   
         {/* <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)} /> */}
@@ -40,7 +39,7 @@ function App() {
         {/* <input type="text" value={plantLocation} onChange={(e) => setMessage(e.target.value)} /> */}
         <br />
         <br />
-        <button>Submit</button>
+        <button>Send</button>
         <br />
         <br />
         <br />
