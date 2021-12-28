@@ -18,8 +18,18 @@ function App() {
         <p>I'm a detail oriented full-stack software developer driven by knowledge, collaboration, and problem solving. I apply vision, innovation, and a creative perspective in all environments with a focus on timely, cost effective, and quality final project/product delivery. I always enjoy new challenges, and equally enjoy looking for a creative approach to new challenges.</p>
       </section>
 
+      <section className='skills'>
+        <h1>Skills</h1>
+        <p>HTML5, CSS3, Javascript, REACT, ES6, NodeJS, Express, MongoDB, SQL, PostrgeSQL, Ruby</p>
+      </section>
+
       <section className='projects'>
       <h1>Projects</h1>
+
+      <a className='p1-link' href='https://sherget15.github.io/Cocktail-Connoisseur/'><img className='p1-img' src='https://i.imgur.com/smBirji.jpg'></img></a>
+      <a className='p2-link' href='https://p2-zengarden.netlify.app'><img className='p2-img' src='https://i.imgur.com/cwySkeU.jpg'></img></a>
+      <a className='p3-link' href='https://playlistify4real.netlify.app/'><img className='p3-img' src='https://i.imgur.com/Y7Dr5jD.jpg'></img></a>
+
       </section>
 
       <section className='contact'>
