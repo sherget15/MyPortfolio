@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   margin-top: 10vh;
 }
 
@@ -10,15 +9,26 @@ header {
   height: 10vh;
   width: 100%;
   top: 0;
-  /* align-items: center;
-  justify-content: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.left-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.right-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 section {
   height: 100vh;
   width: 100vw;
+  text-align: center;
 }
 
 img {

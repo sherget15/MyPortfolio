@@ -7,11 +7,28 @@ function App() {
     <div className="App">
 
       <header>
+
+        <div className='left-header'>
+          <h6>Home</h6>
+          <h6>About Me</h6>
+          <h6>Projects</h6>
+          <h6>Contact</h6>
+          <h6>Resume</h6>
+        </div>
+
+        <div className='middle-header'></div>
+
+        <div className='right-header'>
+        <h6>Github</h6>
+        <h6>Linkedin</h6>
+        </div>
+
       </header>
 
       <section className='home'>
-      <h1>Hello, my name is Stephen Herget.</h1>
-      <h4>I'm a web developer.</h4>
+        {/* <img className='profile-img' src='https://i.imgur.com/ZSg4C3H.jpg'></img> */}
+        <h1>Hello, my name is Stephen Herget.</h1>
+        <h4>I'm a web developer.</h4>
       </section>
 
       <section className='about-me'>
@@ -25,7 +42,7 @@ function App() {
       </section>
 
       <section className='projects'>
-      <h1>Projects</h1>
+      <h1>Recent Projects</h1>
 
       <a className='p1-link' href='https://sherget15.github.io/Cocktail-Connoisseur/'><img className='p1-img' src='https://i.imgur.com/smBirji.jpg'></img></a>
       <a className='p2-link' href='https://p2-zengarden.netlify.app'><img className='p2-img' src='https://i.imgur.com/cwySkeU.jpg'></img></a>
