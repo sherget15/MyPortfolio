@@ -1,9 +1,10 @@
 import './App.css';
+import siReact from 'simple-icons/icons/react';
+import Icon, { Github, Gmail, Linkedin, ReactJs } from '@icons-pack/react-simple-icons';
 
 function App() {
   return (
 
-    
     <div className="App">
 
       <header>
@@ -56,8 +57,22 @@ function App() {
       <div className='contact-form'>
       {/* <a className="linkedin" href="https://www.linkedin.com/in/sherget15" ></a> */}
       {/* <a href="https://www.linkedin.com/in/ryanblack045/" class="linkedin"><img className='li-logo' src='github-icon (1).svg'></img></a> */}
-      <iframe className='linkedin-img' src="http://www.w3.org/2000/svg"></iframe>
+      {/* <iframe className='linkedin-img' src="http://www.w3.org/2000/svg"></iframe> */}
+      
+      <div className='gmail-div'>
+        <a className='gmail-link' href='mailto:herget06@gmail.com'>
+        <Gmail color='red' size={75} />
+        <h4>EMAIL ME</h4>
+        </a>
+        <h6>herget06@gmail.com</h6>
+      </div>
 
+      <div>
+      <a className='github-link' href='https://github.com/sherget15'><Github color='black' size={75} /></a>
+      </div>
+      
+      <a className='linkedin-link' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'><Linkedin color='#0e76a8' size={75} /></a>
+      
       </div>
       </section>
 
