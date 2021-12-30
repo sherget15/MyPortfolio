@@ -18,6 +18,7 @@ header {
 .left-header {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  margin-left: 20px;
 }
 
 .right-header {
@@ -28,6 +29,7 @@ header {
 section {
   height: 100vh;
   width: 100vw;
+  padding: 250px 0;
   text-align: center;
 }
 

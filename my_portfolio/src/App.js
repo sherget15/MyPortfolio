@@ -54,25 +54,11 @@ function App() {
       <h1>Contact Me!</h1>
 
       <div className='contact-form'>
-      <form>
-        <label>Your Name</label>   
-        {/* <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)} /> */}
-        <br />
-        <br />
-        <label>Your Email</label>   
-        {/* <input type="text" value={plantName} onChange={(e) => setEmail(e.target.value)} /> */}
-        <br />
-        <br />
-        <label>Your Message</label>   
-        {/* <input type="text" value={plantLocation} onChange={(e) => setMessage(e.target.value)} /> */}
-        <br />
-        <br />
-        <button>Send</button>
-        <br />
-        <br />
-        <br />
-      </form>
-    </div>
+      {/* <a className="linkedin" href="https://www.linkedin.com/in/sherget15" ></a> */}
+      {/* <a href="https://www.linkedin.com/in/ryanblack045/" class="linkedin"><img className='li-logo' src='github-icon (1).svg'></img></a> */}
+      <iframe className='linkedin-img' src="http://www.w3.org/2000/svg"></iframe>
+
+      </div>
       </section>
 
     </div>
