@@ -20,8 +20,24 @@ function App() {
         <div className='middle-header'></div>
 
         <div className='right-header'>
-        <h6>Github</h6>
-        <h6>Linkedin</h6>
+          <div className='github-div'>
+            <a className='github-link' href='https://github.com/sherget15'>
+              <Github color='white' size={45} />
+            </a>
+          </div>
+          
+          <div className='linkedin-div'>
+            <a className='linkedin-link' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'>
+              <Linkedin color='#0e76a8' size={45} />
+            </a>
+          </div>
+
+          <div className='gmail-div'>
+            <a className='gmail-link' href='mailto:herget06@gmail.com'>
+              <Gmail color='red' size={75} />
+            </a>
+          </div>
+
         </div>
 
       </header>
@@ -52,13 +68,20 @@ function App() {
       </section>
 
       <section className='contact'>
+
+
       <h1>Contact Me!</h1>
 
       <div className='contact-form'>
-      {/* <a className="linkedin" href="https://www.linkedin.com/in/sherget15" ></a> */}
-      {/* <a href="https://www.linkedin.com/in/ryanblack045/" class="linkedin"><img className='li-logo' src='github-icon (1).svg'></img></a> */}
-      {/* <iframe className='linkedin-img' src="http://www.w3.org/2000/svg"></iframe> */}
-      
+
+      <div className='github-div'>
+      <a className='github-link' href='https://github.com/sherget15'><Github color='black' size={75} /></a>
+      </div>
+
+      <div className='linkedin-div'>
+      <a className='linkedin-link' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'><Linkedin color='#0e76a8' size={75} /></a>
+      </div>
+
       <div className='gmail-div'>
         <a className='gmail-link' href='mailto:herget06@gmail.com'>
         <Gmail color='red' size={75} />
@@ -66,15 +89,12 @@ function App() {
         </a>
         <h6>herget06@gmail.com</h6>
       </div>
+      
+      </div>
 
-      <div>
-      <a className='github-link' href='https://github.com/sherget15'><Github color='black' size={75} /></a>
-      </div>
-      
-      <a className='linkedin-link' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'><Linkedin color='#0e76a8' size={75} /></a>
-      
-      </div>
+
       </section>
+
 
     </div>
   );
