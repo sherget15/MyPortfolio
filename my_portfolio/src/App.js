@@ -1,6 +1,7 @@
 import './App.css';
 import siReact from 'simple-icons/icons/react';
-import Icon, { Github, Gmail, Linkedin, ReactJs } from '@icons-pack/react-simple-icons';
+import Icon, { CssThree, Github, Gmail, Html5, Javascript, Linkedin, Microsoftsqlserver, Mongodb, Nodedotjs, ReactJs, Ruby, Sequelize } from '@icons-pack/react-simple-icons';
+import { yellow } from '@material-ui/core/colors';
 
 function App() {
   return (
@@ -10,31 +11,36 @@ function App() {
       <header>
 
         <div className='left-header'>
+
           <h6>Home</h6>
           <h6>About Me</h6>
           <h6>Projects</h6>
           <h6>Contact</h6>
           <h6>Resume</h6>
+
         </div>
+
 
         <div className='middle-header'></div>
 
+
         <div className='right-header'>
-          <div className='github-div'>
+
+          <div className='github-header'>
             <a className='github-link' href='https://github.com/sherget15'>
               <Github color='white' size={45} />
             </a>
           </div>
           
-          <div className='linkedin-div'>
+          <div className='linkedin-header'>
             <a className='linkedin-link' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'>
               <Linkedin color='#0e76a8' size={45} />
             </a>
           </div>
 
-          <div className='gmail-div'>
+          <div className='gmail-header'>
             <a className='gmail-link' href='mailto:herget06@gmail.com'>
-              <Gmail color='red' size={75} />
+              <Gmail color='red' size={45} />
             </a>
           </div>
 
@@ -55,7 +61,60 @@ function App() {
 
       <section className='skills'>
         <h1>Skills</h1>
-        <p>HTML5, CSS3, Javascript, REACT, ES6, NodeJS, Express, MongoDB, SQL, PostrgeSQL, Ruby</p>
+        <p>MongoDB, SQL, PostrgeSQL</p>
+        
+        <div>
+
+        <div>
+          <Html5 color='#e34c26' size={75} />
+          <h4>HTML5</h4>
+        </div>
+
+        <div>
+          <Javascript color='#f0db4f' size={75} />
+          <h4>Javascript <h4 className='es6'>ES6</h4></h4>
+        </div>
+
+        <div>
+          <CssThree color='#264de4' size={75} />
+          <h4>CSS3</h4>
+        </div>
+
+        <div>
+          <Ruby color='#cc0000' size={75} />
+          <h4>Ruby</h4>
+        </div>
+
+        </div>
+
+        <div className='applications'>
+
+          <div>
+            <ReactJs color='#61DBFB' size={75} />
+            <h4>REACT</h4>
+          </div>
+
+          <div>
+            <Nodedotjs color='#68a063' size={75} />
+            <h4>Node.JS</h4>
+          </div>
+
+        </div>
+
+        <div className='databases'>
+
+          <div>
+            <Mongodb color='#47A248' size={75} />
+            <h4>MongoDB</h4>
+          </div>
+
+          <div>
+            <Microsoftsqlserver color='#CC2927' size={75} />
+            <h4>SQL</h4>
+          </div>
+
+        </div>
+
       </section>
 
       <section className='projects'>

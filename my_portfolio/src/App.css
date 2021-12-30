@@ -22,8 +22,23 @@ header {
 }
 
 .right-header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: inline-flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.github-header {
+  margin-right: 10px;
+}
+
+.linkedin-header {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.gmail-header {
+  margin-left: 10px;
 }
 
 section {
