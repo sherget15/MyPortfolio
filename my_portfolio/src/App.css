@@ -42,10 +42,86 @@ header {
 }
 
 section {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
-  padding: 250px 0;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-me2 {
+  width: 80%;
+}
+
+.skills-section {
+  padding-top: 20px;
+  text-align: center;
+  height: 30vh;
+  background-color: rgb(79, 5, 110);
+}
+
+.skills-div {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.languages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 250px;
+  border-bottom: 1px solid purple;
+}
+
+.applications {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 250px;
+  border-bottom: 1px solid purple;
+}
+
+.databases {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 250px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 100px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.contact-div {
+  line-height: 100px;
+}
+
+.contact-form {
+  display: inline-flex;
+  gap: 60px;
 }
 
 img {
