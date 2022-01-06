@@ -50,7 +50,7 @@ function App() {
 
       <section className='home' id='home-section'>
         <div className='second-home'>
-          <h1>Hello, my name is <div className='span-div'><span className='span-b1'>&lt;</span> <span className='span-s'>S</span> <span className='span-t'>t</span> <span className='span-e'>e</span> <span className='span-p'>p</span> <span className='span-h'>h</span> <span className='span-e2'>e</span> <span className='span-n'>n</span> <span className='span-b2'>&gt;</span></div> Herget.</h1>
+          <h1>Hello, my name is <span className='span-b1'>&lt;</span> <span className='span-s'>S</span> <span className='span-t'>t</span> <span className='span-e'>e</span> <span className='span-p'>p</span> <span className='span-h'>h</span> <span className='span-e2'>e</span> <span className='span-n'>n</span> <span className='span-b2'>&gt;</span> Herget.</h1>
           <h2>I'm a web developer.</h2>
         </div>
       </section>

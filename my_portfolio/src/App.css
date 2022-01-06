@@ -82,6 +82,15 @@ section {
   background-color: black;
 }
 
+.second-home {
+  white-space: nowrap;
+}
+
+.second-home > div {
+  width: 300px;
+  display: inline-block;
+}
+
 .about-me {
   display: flex;
   align-items: center;
@@ -142,6 +151,7 @@ h1 {
 }
 
 span {
-  color: black;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: rgb(79, 5, 110);
+  margin-left: 0px;
+  margin-right: 0px;
 }
