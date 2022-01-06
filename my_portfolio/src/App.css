@@ -23,7 +23,7 @@ header {
   font-size: medium;
 }
 
-.section-links {
+a {
   color: white;
   text-decoration: none; 
 }

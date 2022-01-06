@@ -12,14 +12,14 @@ function App() {
 
       <header>
 
-        <div className='left-header'>
-          <Link to='/#home-section' className='section-links'>Home</Link>
-          <Link to='/#about-section' className='section-links'>About Me</Link>
-          <Link to='/#skills-section' className='section-links'>Skills</Link>
-          <Link to='/#projects-section' className='section-links'>Projects</Link>
-          <Link to='/#contact-section' className='section-links'>Contact</Link>
-          <Link to='/#resume' className='section-links'>Resume</Link>
-        </div>
+      <div className='left-header'>
+        <a href='#home-section'>Home</a>
+        <a href='#about-section'>About</a>
+        <a href='#skills-section'>Skills</a>
+        <a href='#projects-section'>Projects</a>
+        <a href='#contact-section'>Contact</a>
+        <a href='#resume'>Resume</a>
+      </div>
 
         <div className='middle-header'></div>
 
@@ -55,6 +55,7 @@ function App() {
         </div>
       </section>
 
+
       <section className='about-me' id='about-section'>
         <div className='about-me2'>
           <h1>ABOUT ME</h1>
@@ -82,7 +83,7 @@ function App() {
       </section>
 
 
-      <section className='projects'>
+      <section className='projects' id='projects-section'>
         <div className='projects-div'>
           <h1>RECENT PROJECTS</h1>
           <a className='p1-link' href='https://sherget15.github.io/Cocktail-Connoisseur/'><img className='p1-img' src='https://i.imgur.com/smBirji.jpg'></img></a>
@@ -96,7 +97,7 @@ function App() {
         <div className='contact-div'>
 
           <h1>CONTACT ME</h1>
-          <div className='contact-form'>
+          <div className='contact-form' id='contact-section'>
             <div className='github-div'><a className='github-link' href='https://github.com/sherget15'><Github color='white' size={75} /></a></div>
             <div className='linkedin-div'><a className='linkedin-link' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'><Linkedin color='#0e76a8' size={75} /></a></div>
             <div className='gmail-div'><a className='gmail-link' href='mailto:herget06@gmail.com'><Gmail color='red' size={75} /></a></div>
@@ -104,6 +105,7 @@ function App() {
 
         </div>
       </section>
+
 
     </div>
   );
