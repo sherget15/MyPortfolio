@@ -17,19 +17,38 @@ header {
 
 .left-header {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  margin-left: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-left: 100px;
+
+  align-items: center;
+  font-size: medium;
+  
+}
+
+.section-links {
+  color: white;
+  text-decoration: none; 
+}
+
+.section-links:hover {
+  text-decoration: underline;
+  opacity: .5;
 }
 
 .right-header {
   display: inline-flex;
   align-items: center;
   justify-content: right;
-  margin-right: 20px;
+  margin-right: 100px;
 }
 
 .github-header {
   margin-right: 10px;
+}
+
+.github-header:hover {
+  text-decoration: underline;
+  opacity: .5;
 }
 
 .linkedin-header {
@@ -37,8 +56,18 @@ header {
   margin-right: 10px;
 }
 
+.linkedin-header:hover {
+  text-decoration: underline;
+  opacity: .5;
+}
+
 .gmail-header {
   margin-left: 10px;
+}
+
+.gmail-header:hover {
+  text-decoration: underline;
+  opacity: .5;
 }
 
 section {
@@ -66,10 +95,10 @@ section {
   width: 80%;
 }
 
-.skills-section {
-  padding-top: 20px;
+.skills {
+  padding-top: 10px;
   text-align: center;
-  height: 30vh;
+  height:40vh;
   background-color: rgb(79, 5, 110);
 }
 
@@ -128,4 +157,13 @@ img {
   height: 40vh;
   width: 30vw;
   padding: 10px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+span {
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }

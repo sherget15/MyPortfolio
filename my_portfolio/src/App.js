@@ -2,6 +2,8 @@ import './App.css';
 import siReact from 'simple-icons/icons/react';
 import Icon, { CssThree, Github, Gmail, Html5, Javascript, Linkedin, Microsoftsqlserver, Mongodb, Nodedotjs, Postgresql, ReactJs, Ruby, Sequelize } from '@icons-pack/react-simple-icons';
 import { yellow } from '@material-ui/core/colors';
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 function App() {
   return (
@@ -11,16 +13,18 @@ function App() {
       <header>
 
         <div className='left-header'>
-          <h6>Home</h6>
-          <h6>About Me</h6>
-          <h6>Projects</h6>
-          <h6>Contact</h6>
-          <h6>Resume</h6>
+          <Link to='/#home-section' className='section-links'>Home</Link>
+          <Link to='/#about-section' className='section-links'>About Me</Link>
+          <Link to='/#skills-section' className='section-links'>Skills</Link>
+          <Link to='/#projects-section' className='section-links'>Projects</Link>
+          <Link to='/#contact-section' className='section-links'>Contact</Link>
+          <Link to='/#resume' className='section-links'>Resume</Link>
         </div>
 
         <div className='middle-header'></div>
 
         <div className='right-header'>
+          
           <div className='github-header'>
             <a className='github-link' href='https://github.com/sherget15'>
               <Github color='white' size={45} />
@@ -44,23 +48,23 @@ function App() {
       </header>
 
 
-      <section className='home'>
+      <section className='home' id='home-section'>
         <div className='second-home'>
           {/* <img className='profile-img' src='https://i.imgur.com/ZSg4C3H.jpg'></img> */}
-          <h1>Hello, my name is Stephen Herget.</h1>
-          <h4>I'm a web developer.</h4>
+          <h1>Hello, my name is <div className='span-div'><span className='span-b1'>&lt;</span> <span className='span-s'>S</span> <span className='span-t'>t</span> <span className='span-e'>e</span> <span className='span-p'>p</span> <span className='span-h'>h</span> <span className='span-e2'>e</span> <span className='span-n'>n</span> <span className='span-b2'>&gt;</span></div> Herget.</h1>
+          <h2>I'm a web developer.</h2>
         </div>
       </section>
 
-      <section className='about-me'>
+      <section className='about-me' id='about-section'>
         <div className='about-me2'>
           <h1>ABOUT ME</h1>
-          <p>I'm a detail oriented full-stack software developer driven by knowledge, collaboration, and problem solving. I apply vision, innovation, and a creative perspective in all environments with a focus on timely, cost effective, and quality final project/product delivery. I always enjoy new challenges, and equally enjoy looking for new creative approaches to challenges.</p>
+          <h2>I'm a detail oriented full-stack software developer driven by knowledge, collaboration, and problem solving. I apply vision, innovation, and a creative perspective in all environments with a focus on timely, cost effective, and quality final project/product delivery. I always enjoy new challenges, and equally enjoy looking for new creative approaches to challenges.</h2>
         </div>
       </section>
 
 
-      <section className='skills-section'>
+      <section className='skills' id='skills-section'>
         <h1>SKILLS</h1>
         <div className='skills-div'>
 
