@@ -50,7 +50,6 @@ function App() {
 
       <section className='home' id='home-section'>
         <div className='second-home'>
-          {/* <img className='profile-img' src='https://i.imgur.com/ZSg4C3H.jpg'></img> */}
           <h1>Hello, my name is <div className='span-div'><span className='span-b1'>&lt;</span> <span className='span-s'>S</span> <span className='span-t'>t</span> <span className='span-e'>e</span> <span className='span-p'>p</span> <span className='span-h'>h</span> <span className='span-e2'>e</span> <span className='span-n'>n</span> <span className='span-b2'>&gt;</span></div> Herget.</h1>
           <h2>I'm a web developer.</h2>
         </div>
@@ -66,29 +65,18 @@ function App() {
 
       <section className='skills' id='skills-section'>
         <h1>SKILLS</h1>
-        <div className='skills-div'>
+        <br />
 
-        {/* <div className='language-title'><h2>LANGUAGES</h2></div>
-        <div className='languages'> */}
+        <div className='skills-div'>
           <div><Html5 color='#e34c26' size={75} /><h4>HTML5</h4></div>
           <div><Javascript color='#f0db4f' size={75} /><h4>Javascript <h4 className='es6'>ES6</h4></h4></div>
           <div><CssThree color='#264de4' size={75} /><h4>CSS3</h4></div>
           <div><Ruby color='#cc0000' size={75} /><h4>Ruby</h4></div>
-        {/* </div> */}
-
-        {/* <div className='application-title'><h2>APPLICATIONS</h2></div>
-        <div className='applications'> */}
           <div><ReactJs color='#61DBFB' size={75} /><h4>REACT</h4></div>
           <div><Nodedotjs color='#68a063' size={75} /><h4>Node.JS</h4></div>
-        {/* </div> */}
-
-        {/* <div className='database-title'><h2>SERVERS AND DATABASES</h2></div>
-        <div className='databases'> */}
           <div><Mongodb color='#47A248' size={75} /><h4>MongoDB</h4></div>
           <div><Microsoftsqlserver color='#CC2927' size={75} /><h4>SQL</h4></div>
           <div><Postgresql color='#4169E1' size={75} /><h4>PostgreSQL</h4></div>
-        {/* </div> */}
-
         </div>
 
       </section>

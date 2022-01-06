@@ -19,10 +19,8 @@ header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   margin-left: 100px;
-
   align-items: center;
   font-size: medium;
-  
 }
 
 .section-links {
@@ -105,26 +103,6 @@ section {
 .skills-div {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-}
-
-.languages {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  height: 250px;
-  border-bottom: 1px solid purple;
-}
-
-.applications {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  height: 250px;
-  border-bottom: 1px solid purple;
-}
-
-.databases {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  height: 250px;
 }
 
 .projects {
