@@ -18,7 +18,7 @@ function App() {
         <a href='#skills-section'>Skills</a>
         <a href='#projects-section'>Projects</a>
         <a href='#contact-section'>Contact</a>
-        <a href='#resume'>Resume</a>
+        <a href="./StephenHerget_Resume_2021.09.17x.pdf" download rel='noopener' target="_blank">Resume</a>
       </div>
 
         <div className='middle-header'></div>
