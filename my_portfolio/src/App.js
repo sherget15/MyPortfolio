@@ -4,15 +4,6 @@ import Icon, { CssThree, Github, Gmail, Html5, Javascript, Linkedin, Microsoftsq
 import { yellow } from '@material-ui/core/colors';
 import React from 'react';
 import {Link} from 'react-router-dom';
-// import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
-
-// const MyDoc = () => (
-//   <Document>
-//     <Page>
-      
-//     </Page>
-//   </Document>
-// )
 
 function App() {
   return (
@@ -27,7 +18,7 @@ function App() {
         <a href='#skills-section'>Skills</a>
         <a href='#projects-section'>Projects</a>
         <a href='#contact-section'>Contact</a>
-        <a href="./StephenHerget_Resume_2021.09.17x.pdf" download alt=' ' rel='noopener' target="_blank">Resume</a>
+        <a href="https://drive.google.com/file/d/12eubGP6CUOvsSOBZn9Wr0PwPNU2fMEOd/view?usp=sharing" download alt=' ' rel='noopener' target="_blank">Resume</a>
       </div>
 
         <div className='middle-header'></div>
