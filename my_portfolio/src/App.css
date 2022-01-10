@@ -68,10 +68,10 @@ a {
   opacity: .5;
 }
 
-section {
+/* section {
   height: 90vh;
   width: 100vw;
-}
+} */
 
 .home {
   display: flex;
@@ -80,6 +80,8 @@ section {
   text-align: center;
   color: white;
   background-color: black;
+  height: 90vh;
+  width: 100vw;
 }
 
 .second-home {
@@ -96,6 +98,8 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
+  height: 90vh;
+  width: 100vw;
 }
 
 .about-me2 {
@@ -103,15 +107,32 @@ section {
 }
 
 .skills {
-  padding-top: 10px;
+  display: flex;
   text-align: center;
-  height:40vh;
+  right: 0;
+  height: 90vh;
+  width: 100vw;
+}
+
+/* .skills-top {
+  height: 25vh;
+} */
+
+.skills-title {
+  display: flex;
+  justify-content: center;
   background-color: rgb(79, 5, 110);
 }
 
-.skills-div {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
+.skills-logos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  gap: 100px;
+  background-color: rgb(79, 5, 110);
+  width: 100vw;
 }
 
 .projects {
@@ -120,6 +141,8 @@ section {
   justify-content: center;
   text-align: center;
   line-height: 100px;
+  height: 90vh;
+  width: 100vw;
 }
 
 .contact {
@@ -129,6 +152,8 @@ section {
   text-align: center;
   background-color: black;
   color: white;
+  height: 90vh;
+  width: 100vw;
 }
 
 .contact-div {
@@ -154,4 +179,17 @@ span {
   color: rgb(79, 5, 110);
   margin-left: 0px;
   margin-right: 0px;
+}
+
+
+@media all and (max-width: 1600px) {
+  .left-header {
+    display: inline-flex;
+    align-content: center;
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 900px) {
+
 }

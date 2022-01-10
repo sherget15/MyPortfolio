@@ -66,10 +66,16 @@ function App() {
 
 
       <section className='skills' id='skills-section'>
-        <h1>SKILLS</h1>
-        <br />
+        
+        <div className='skills-top'></div>
 
         <div className='skills-div'>
+          <div className='skills-title'>
+          <h1>SKILLS</h1>
+          <br />
+          </div>
+
+          <div className='skills-logos'>
           <div><Html5 color='#e34c26' size={75} /><h4>HTML5</h4></div>
           <div><Javascript color='#f0db4f' size={75} /><h4>Javascript <h4 className='es6'>ES6</h4></h4></div>
           <div><CssThree color='#264de4' size={75} /><h4>CSS3</h4></div>
@@ -79,7 +85,11 @@ function App() {
           <div><Mongodb color='#47A248' size={75} /><h4>MongoDB</h4></div>
           <div><Microsoftsqlserver color='#CC2927' size={75} /><h4>SQL</h4></div>
           <div><Postgresql color='#4169E1' size={75} /><h4>PostgreSQL</h4></div>
+          </div>
+
         </div>
+
+        <div className='skills-bottom'></div>
 
       </section>
 
