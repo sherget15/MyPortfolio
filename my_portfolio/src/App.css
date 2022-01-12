@@ -16,11 +16,14 @@ header {
 }
 
 .left-header {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  margin-left: 100px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-left: 50px;
   align-items: center;
-  font-size: medium;
+  font-size: 15px;
 }
 
 a {
@@ -99,6 +102,13 @@ a {
   right: 0;
   height: 90vh;
   width: 100vw;
+  background-color: rgb(79, 5, 110);
+}
+
+.skills-div {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
 }
 
 .skills-title {
@@ -173,6 +183,52 @@ span {
   }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1300px) {
+  .left-header {
+    font-size: 10px;
+    gap: 10px;
+  }
+}
 
+@media all and (max-width: 900px) {
+  header {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left-header {
+    margin-left: 5px;
+  }
+
+  .right-header {
+    margin-right: 5px;
+    justify-content: center;
+  }
+
+  img {
+    height: 20vh;
+    width: 30vw;
+    padding: 10px;
+  }
+
+  .gh1 {
+    height: 30px;
+    width: 30px;
+  }
+
+  .l1 {
+    height: 30px;
+    width: 30px;
+  }
+
+  .g1 {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  img {
+    height: 10vh;
+    width: 20vw;
+    padding: 10px;
+  }
 }

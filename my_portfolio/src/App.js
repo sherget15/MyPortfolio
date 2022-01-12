@@ -28,19 +28,19 @@ function App() {
           
           <div className='github-header'>
             <a className='github-link' href='https://github.com/sherget15'>
-              <Github color='white' size={45} />
+              <Github className='gh1' color='white' size={45} />
             </a>
           </div>
           
           <div className='linkedin-header'>
             <a className='linkedin-link' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'>
-              <Linkedin color='#0e76a8' size={45} />
+              <Linkedin className='l1' color='#0e76a8' size={45} />
             </a>
           </div>
 
           <div className='gmail-header'>
             <a className='gmail-link' href='mailto:herget06@gmail.com'>
-              <Gmail color='red' size={45} />
+              <Gmail className='g1' color='red' size={45} />
             </a>
           </div>
 
@@ -109,9 +109,9 @@ function App() {
 
           <h1>CONTACT ME</h1>
           <div className='contact-form' id='contact-section'>
-            <div className='github-div'><a className='github-link' href='https://github.com/sherget15'><Github color='white' size={75} /></a></div>
-            <div className='linkedin-div'><a className='linkedin-link' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'><Linkedin color='#0e76a8' size={75} /></a></div>
-            <div className='gmail-div'><a className='gmail-link' href='mailto:herget06@gmail.com'><Gmail color='red' size={75} /></a></div>
+            <div className='github-div'><a className='github-link2' href='https://github.com/sherget15'><Github color='white' size={75} /></a></div>
+            <div className='linkedin-div'><a className='linkedin-link2' href='https://www.linkedin.com/in/stephen-a-herget-50522942/'><Linkedin color='#0e76a8' size={75} /></a></div>
+            <div className='gmail-div'><a className='gmail-link2' href='mailto:herget06@gmail.com'><Gmail color='red' size={75} /></a></div>
           </div>
 
         </div>
