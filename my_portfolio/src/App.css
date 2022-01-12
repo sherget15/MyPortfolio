@@ -37,6 +37,7 @@ a {
 }
 
 .right-header {
+  grid-column-start: 3;
   display: inline-flex;
   align-items: center;
   justify-content: right;
@@ -200,7 +201,8 @@ span {
 
   .right-header {
     margin-right: 5px;
-    justify-content: center;
+    justify-content: right;
+    grid-column-start: 2;
   }
 
   img {

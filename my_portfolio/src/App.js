@@ -22,7 +22,7 @@ function App() {
         {/* <a href="StephenHerget_Resume_2021.09.17x.pdf" download alt=' ' rel='noopener' target="_blank">Resume</a> */}
       </div>
 
-        <div className='middle-header'></div>
+        {/* <div className='middle-header'></div> */}
 
         <div className='right-header'>
           
