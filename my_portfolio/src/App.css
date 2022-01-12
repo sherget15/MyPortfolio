@@ -68,11 +68,6 @@ a {
   opacity: .5;
 }
 
-/* section {
-  height: 90vh;
-  width: 100vw;
-} */
-
 .home {
   display: flex;
   align-items: center;
@@ -82,15 +77,6 @@ a {
   background-color: black;
   height: 90vh;
   width: 100vw;
-}
-
-/* .second-home {
-  white-space: nowrap;
-} */
-
-.second-home > div {
-  width: 300px;
-  display: inline-block;
 }
 
 .about-me {
@@ -114,10 +100,6 @@ a {
   height: 90vh;
   width: 100vw;
 }
-
-/* .skills-top {
-  height: 25vh;
-} */
 
 .skills-title {
   display: flex;
