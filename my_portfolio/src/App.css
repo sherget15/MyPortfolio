@@ -84,9 +84,9 @@ a {
   width: 100vw;
 }
 
-.second-home {
+/* .second-home {
   white-space: nowrap;
-}
+} */
 
 .second-home > div {
   width: 300px;
@@ -108,6 +108,7 @@ a {
 
 .skills {
   display: flex;
+  align-items: center;
   text-align: center;
   right: 0;
   height: 90vh;
