@@ -4,6 +4,7 @@ import Icon, { CssThree, Express, Github, Gmail, Html5, Javascript, Linkedin, Mi
 import { yellow } from '@material-ui/core/colors';
 import React from 'react';
 import {Link} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
