@@ -1,0 +1,236 @@
+.App {
+  margin-top: 10vh;
+}
+
+header {
+  z-index: 10;
+  position: fixed;
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.left-header {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  align-items: center;
+  font-size: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none; 
+}
+
+.section-links:hover {
+  text-decoration: underline;
+  opacity: .5;
+}
+
+.right-header {
+  grid-column-start: 3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 100px;
+}
+
+.github-header {
+  margin-right: 10px;
+}
+
+.github-header:hover {
+  text-decoration: underline;
+  opacity: .5;
+}
+
+.linkedin-header {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.linkedin-header:hover {
+  text-decoration: underline;
+  opacity: .5;
+}
+
+.gmail-header {
+  margin-left: 10px;
+}
+
+.gmail-header:hover {
+  text-decoration: underline;
+  opacity: .5;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 90vh;
+  width: 100vw;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.about-me2 {
+  width: 80%;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  right: 0;
+  height: 90vh;
+  width: 100vw;
+  background-color: rgb(79, 5, 110);
+}
+
+.skills-div {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(79, 5, 110);
+}
+
+.skills-logos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  gap: 100px;
+  background-color: rgb(79, 5, 110);
+  width: 100vw;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 100px;
+  height: 90vh;
+  width: 100vw;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 90vh;
+  width: 100vw;
+}
+
+.contact-div {
+  line-height: 100px;
+}
+
+.contact-form {
+  display: inline-flex;
+  gap: 60px;
+}
+
+img {
+  height: 40vh;
+  width: 30vw;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+span {
+  color: rgb(79, 5, 110);
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+@media all and (max-width: 1600px) {
+  .left-header {
+    display: inline-flex;
+    align-content: center;
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .left-header {
+    font-size: 10px;
+    gap: 10px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  header {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left-header {
+    margin-left: 5px;
+  }
+
+  .right-header {
+    margin-right: 5px;
+    justify-content: right;
+    grid-column-start: 2;
+  }
+
+  img {
+    height: 20vh;
+    width: 30vw;
+    padding: 10px;
+  }
+
+  .gh1 {
+    height: 30px;
+    width: 30px;
+  }
+
+  .l1 {
+    height: 30px;
+    width: 30px;
+  }
+
+  .g1 {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  img {
+    height: 10vh;
+    width: 20vw;
+    padding: 10px;
+  }
+}
