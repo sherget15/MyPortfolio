@@ -19,8 +19,8 @@ function App() {
         <a href='#skills-section'>Skills</a>
         <a href='#projects-section'>Projects</a>
         <a href='#contact-section'>Contact</a>
-        <a href="https://drive.google.com/file/d/12eubGP6CUOvsSOBZn9Wr0PwPNU2fMEOd/view?usp=sharing" download alt=' ' rel='noopener' target="_blank">Resume</a>
-        {/* <a href="StephenHerget_Resume_2021.09.17x.pdf" download alt=' ' rel='noopener' target="_blank">Resume</a> */}
+        <a href="https://drive.google.com/file/d/1M8nQ2jfAZvsmbEXIsqINAQOwdIKEkoIg/view?usp=sharing" download alt=' ' rel='noopener' target="_blank">Resume</a>
+        {/* <a href="StephenHerget_Resume_2021.11.04.pdf" download alt=' ' rel='noopener' target="_blank">Resume</a> */}
       </div>
 
         <div className='right-header'>
