@@ -127,6 +127,7 @@ a {
   gap: 100px;
   background-color: rgb(79, 5, 110);
   width: 100vw;
+  border-radius: 20px;
 }
 
 .projects {
